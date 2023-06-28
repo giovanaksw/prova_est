@@ -1,0 +1,9 @@
+body{
+    background-color: bisque;
+    color: black;
+}
+button,input{
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+}

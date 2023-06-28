@@ -1,0 +1,19 @@
+<h1>Lista de clientes</h1>
+<hr>
+<table>
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>idade</th>
+    </thead>
+{{#each valores}}
+    <tbody>
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.nome}}</td>
+            <td>{{this.idade}}</td>
+        </tr>
+    </tbody>
+{{/each}}
+</table>
+<hr>

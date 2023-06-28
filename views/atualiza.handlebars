@@ -1,0 +1,16 @@
+<h1>Atualização dos Clientes</h1><br>
+<link rel="stylesheet" href="css/style.css">
+<form action="/atualizar" method="post"></form>
+    <label for="">Nome do cliente:</label>
+    <input type="text" name="nome"><br>
+    <label for="">Idade do cliente:</label>
+    <input type="text" name="idade"><br><br>
+    <button type="submit">Atualiza</button>
+</form>
+<br>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{/if}}
+{{#each valores}}
+    <p>{{this.id}}</p>
+{{/each}}
